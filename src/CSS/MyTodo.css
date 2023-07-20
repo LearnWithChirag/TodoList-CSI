@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    background-color: skyblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.childContainer{
+    height: 70vh;
+    display: flex;
+    margin: 1rem;
+    width: 30%;
+    background-color: rgba(66, 187, 235, 0.639);
+
+    border: .2rem solid black;
+    box-shadow: 0 0 1.5rem black;
+    flex-direction: column;
+    border-radius: 1rem;
+    /* padding: 5rem; */
+    align-items: center;
+}
+
+.childContainer h1{
+    margin-top: 2rem;
+    /* color: white; */
+    border-bottom: .2rem solid blueviolet;
+}
+.addList{
+    margin: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+    /* height: 2rem; */
+}
+.todoInput{
+    height: 3rem;
+    width: 16rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+}
+.todoBtn{
+    width: 3.5rem;
+    /* padding: 1rem; */
+    border: none;
+    font-size: 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    background-color: green;
+    
+    cursor: pointer;
+}
+.showList{
+    width: 80%;
+    margin: .5rem;
+}
+.eachList{
+    border-radius: 2rem;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    border-bottom: .1rem solid black;
+}
+.eachList:hover{
+    background-color: blueviolet;
+}
+.eachList h4{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.remove-All-Btn input{
+    padding: .5rem;
+    border-radius: .5rem   ;
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 8rem;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+}
